@@ -6,3 +6,6 @@ This repository is built upon models developed by Cherif et al. 2023, showcasing
 While two HSI examples are provided for testing purposes, users have the flexibility to upload new scenes along with relevant information about the available bands.
 
 For a smoother execution of the code, we have also made available this Colab notebook (https://colab.research.google.com/drive/1A7edK_jJ4q19ysYPaWbLenT9PcF4FxSJ#scrollTo=8i4K_djURepQ)
+
+![image](Enmap_toyExample_animation.gif?raw=true)
+
