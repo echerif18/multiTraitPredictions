@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+scikit_learn #==1.2.1s
+scipy
+rasterio
+multiprocessing
+time
+
+tensorflow #==2.7.0
