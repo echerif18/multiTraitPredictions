@@ -9,6 +9,8 @@ For the model training, a large number of data sets of canopy spectra and their 
 For validation, the model was evaluated on different data sets as external validation (transferability) and compared with the widely-used Partial Least Square Regression (PLSR) models as well as single CNN models.
 For in-depth technical insights into the model development process, please refer to the following repository: [code_multi](https://gitlab.com/eya95/multi-traitretrieval/).
 
+![Example GIF2](1d_cnn_animation.gif)
+
 ## Multi-trait Predctions
 This repository showcases practical applications through hands-on examples for generating multi-trait maps from Hyperspectral Imagery (HSI). 
 While two HSI examples are provided for testing purposes, users have the flexibility to upload new scenes along with relevant information about the available bands.
