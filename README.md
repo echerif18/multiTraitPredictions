@@ -33,7 +33,6 @@ This project is based on tensorflow v2.7.0 and python v3.9.5.
 6. Run this command to test on a Toy scene (default enmap_toyExp.tif)
 ```
 python HS_predictions.py --sceneText ToyEnmap
-
 ```
 * For a smoother execution of the code, we have also made available this Colab notebook [![DOI](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1A7edK_jJ4q19ysYPaWbLenT9PcF4FxSJ#scrollTo=8i4K_djURepQ)
 * Or use our interactive Demo at [![Hugging Face Model](https://img.shields.io/badge/Model%20on%20Hugging%20Face-blue?logo=huggingface&style=flat)](https://huggingface.co/spaces/avatar5/multiTraitPredictions_test)
