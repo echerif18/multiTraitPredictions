@@ -20,7 +20,7 @@ While two HSI examples are provided for testing purposes, users have the flexibi
 ## How to delpoy our model
 We provide three options to deploy our model on new hyperspectral scenes in GeoTIFF format. The data can be of any shape (height and width) but the channels should correspond to the bands indicated in the .csv metadata file. Two toy examples are provided.
 
-* Clone the repository and run the inference script
+* Option_1: Clone the repository and run the inference script
 #### Setup
 This project is based on tensorflow v2.7.0 and python v3.9.5.
 #### Dependencies
@@ -34,8 +34,8 @@ This project is based on tensorflow v2.7.0 and python v3.9.5.
 ```
 python HS_predictions.py --sceneText ToyEnmap
 ```
-* For a smoother execution of the code, we have also made available this Colab notebook [![DOI](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1A7edK_jJ4q19ysYPaWbLenT9PcF4FxSJ#scrollTo=8i4K_djURepQ)
-* Or use our interactive Demo at [![Hugging Face Model](https://img.shields.io/badge/Model%20on%20Hugging%20Face-blue?logo=huggingface&style=flat)](https://huggingface.co/spaces/avatar5/multiTraitPredictions_test)
+* Option_2: For a smoother execution of the code, we have also made available this Colab notebook [![DOI](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1A7edK_jJ4q19ysYPaWbLenT9PcF4FxSJ#scrollTo=8i4K_djURepQ)
+* Option_3: Or use our interactive Demo at [![Hugging Face Model](https://img.shields.io/badge/Model%20on%20Hugging%20Face-blue?logo=huggingface&style=flat)](https://huggingface.co/spaces/avatar5/multiTraitPredictions_test)
 
 ## How to contribute
 #### Data sharing:
