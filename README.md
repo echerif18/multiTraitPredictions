@@ -38,7 +38,13 @@ python HS_predictions.py --sceneText ToyEnmap
 * Or use our interactive Demo at [![Hugging Face Model](https://img.shields.io/badge/Model%20on%20Hugging%20Face-blue?logo=huggingface&style=flat)](https://huggingface.co/spaces/avatar5/multiTraitPredictions_test)
 
 ## How to contribute
-Please contact me if you find any bugs or have problems getting the models running: https://rsc4earth.de/authors/echerif/
+* Data sharing
+If you have data, please contact us, it would be nice to have you on board for future studies! We are committed to continually enhancing the model's generalizability, and your contributions play a crucial role.
+
+* Bug Reports and Issues:
+Found a bug or encountering difficulties while running the models? Your feedback is invaluable! Please reach out to us with details about any issues you encounter. Your insights help us refine and improve the overall performance.
+
+* contact: https://rsc4earth.de/authors/echerif/
 
 ## Resources
 * The Python-Scripts and notebooks for model devlopment can be found in [code_multi](https://gitlab.com/eya95/multi-traitretrieval/).
