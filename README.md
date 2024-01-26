@@ -42,7 +42,7 @@ python HS_predictions.py --sceneText ToyEnmap
 If you have data, please contact us, it would be nice to have you on board for future studies! We are committed to continually enhancing the model's generalizability, and your contributions play a crucial role.
 
 #### Bug Reports and Issues:
-/n/n Found a bug or encountering difficulties while running the models? Your feedback is invaluable! Please reach out to us with details about any issues you encounter. Your insights help us refine and improve the overall performance.
+Found a bug or encountering difficulties while running the models? Your feedback is invaluable! Please reach out to us with details about any issues you encounter. Your insights help us refine and improve the overall performance.
 
 #### Contact: https://rsc4earth.de/authors/echerif/
 
