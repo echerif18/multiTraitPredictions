@@ -30,17 +30,17 @@ my_parser = argparse.ArgumentParser(description='Predictions')
 # Add the arguments
 my_parser.add_argument('--routedata',
                        metavar='routed',
-                       type=str, default= os.path.join(path, 'HS_img/enmap_toyExp.tif'),
+                       type=str, default= os.path.join(dir_path, 'HS_img/enmap_toyExp.tif'),
                        help='Path to HS scene')
 
 my_parser.add_argument('--routemeta',
                        metavar='routem',
-                       type=str, default= os.path.join(path, 'HS_img/Enmap_bands.csv'),
+                       type=str, default= os.path.join(dir_path, 'HS_img/Enmap_bands.csv'),
                        help='Path to metadata (bands)')
 
 my_parser.add_argument('--modelpath',
                        metavar='path',
-                       type=str, default= os.path.join(path, 'models/'),
+                       type=str, default= os.path.join(dir_path, 'models/'),
                        help='the path to transferability models')
 
 
