@@ -155,14 +155,14 @@ def load_model(dir_data, gp = None):
         # load weights into new model
         best_model.load_weights(dir_data + 'Trial_db{}_weights.h5'.format(gp))
     else:
-        json_file = open(dir_data + 'Model.json', 'r')
+        json_file = open(dir_data + '/Model.json', 'r')
         loaded_model_json = json_file.read()
         json_file.close()
         best_model = model_from_json(loaded_model_json)
 
-        scaler_list = load(open(dir_data+ 'scaler_global.pkl', 'rb'))
+        scaler_list = load(open(dir_data+ '/scaler_global.pkl', 'rb'))
 
         # load weights into new model
-        best_model.load_weights(dir_data+ 'Trial_weights.h5')
+        best_model.load_weights(dir_data+ '/Trial_weights.h5')
     
     return best_model, scaler_list
