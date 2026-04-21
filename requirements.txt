@@ -4,6 +4,7 @@ pandas
 scikit_learn #==1.2.1s
 scipy
 rasterio
+psutil
 #multiprocessing
 #time
 
