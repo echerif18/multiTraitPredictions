@@ -4,6 +4,31 @@ dir_path = os.getcwd()
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1" ### do not use the GPUs
 
+
+def limit_cpu_cores(process, num_cores):
+    # Get the total number of available CPU cores
+    total_cores = psutil.cpu_count()
+
+    # Ensure num_cores does not exceed the total number of cores
+    num_cores = min(num_cores, total_cores)
+    rd = random.randint(1,total_cores
+                       )
+    # Get the process object
+    process = psutil.Process(process.pid)
+
+    # Set the CPU affinity to the first num_cores cores
+    process.cpu_affinity(list(range(rd, rd + num_cores)))
+ 
+
+# Get the current process ID
+current_process = psutil.Process(os.getpid())
+
+# Specify the number of CPU cores you want to use (replace with the desired number)
+desired_num_cores = 5
+
+# Limit the CPU cores usage of the current process
+limit_cpu_cores(current_process, desired_num_cores)
+
 from fun_module import *
 
 import matplotlib.pyplot as plt
